@@ -175,8 +175,8 @@
 /area/ship/crew/ccommons)
 "bp" = (
 /obj/effect/turf_decal/corner/transparent/blue/diagonal,
-/obj/machinery/griddle,
 /obj/machinery/atmospherics/pipe/manifold/dark/hidden/layer1,
+/obj/machinery/oven,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/canteen)
 "bq" = (
@@ -1540,6 +1540,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
+/obj/machinery/griddle,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/canteen)
 "iY" = (
@@ -4870,63 +4871,9 @@
 /area/ship/crew/canteen)
 "Bp" = (
 /obj/effect/turf_decal/corner/transparent/blue/diagonal,
-/obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
-	},
-/obj/structure/closet/wall/white/directional/south{
-	dir = 8;
-	pixel_y = 0;
-	pixel_x = -28
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -7;
-	pixel_y = -8
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -7;
-	pixel_y = -6
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -7;
-	pixel_y = -4
-	},
-/obj/item/kitchen/rollingpin{
-	pixel_y = 7;
-	pixel_x = -3
-	},
-/obj/item/melee/knife/kitchen{
-	pixel_x = -2;
-	pixel_y = 3
-	},
-/obj/item/cutting_board{
-	pixel_x = 0;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -13;
-	pixel_y = 1
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -13;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -13;
-	pixel_y = 5
-	},
-/obj/item/plate{
-	pixel_x = 7;
-	pixel_y = -10
-	},
-/obj/item/plate{
-	pixel_x = 7;
-	pixel_y = -8
-	},
-/obj/item/plate{
-	pixel_x = 7;
-	pixel_y = -6
 	},
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/canteen)
@@ -5155,6 +5102,60 @@
 "CC" = (
 /obj/effect/turf_decal/corner/transparent/blue/diagonal,
 /obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1,
+/obj/structure/table/reinforced,
+/obj/structure/closet/wall/white/directional/south{
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = -28
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_x = -7;
+	pixel_y = -8
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_x = -7;
+	pixel_y = -6
+	},
+/obj/item/reagent_containers/glass/bowl{
+	pixel_x = -7;
+	pixel_y = -4
+	},
+/obj/item/plate{
+	pixel_x = 7;
+	pixel_y = -10
+	},
+/obj/item/plate{
+	pixel_x = 7;
+	pixel_y = -8
+	},
+/obj/item/plate{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/obj/item/cutting_board{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/melee/knife/kitchen{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_y = 7;
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -13;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -13;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -13;
+	pixel_y = 1
+	},
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/canteen)
 "CN" = (
@@ -8241,13 +8242,13 @@
 	pixel_y = 13;
 	pixel_x = 1
 	},
-/obj/item/coffee_cartridge/fancy/blue{
-	pixel_x = -4;
-	pixel_y = 3
-	},
 /obj/item/coffee_cartridge/fancy/roast{
 	pixel_y = 3;
 	pixel_x = 7
+	},
+/obj/item/coffee_cartridge/fancy/blue{
+	pixel_x = -4;
+	pixel_y = 3
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/canteen)
